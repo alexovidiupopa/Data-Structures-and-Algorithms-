@@ -1,0 +1,10 @@
+﻿  Heap.cpp
+d:\dani dsa\dsa\lab5\heap.cpp(95): warning C4018: '<=': signed/unsigned mismatch
+d:\dani dsa\dsa\lab5\heap.cpp(100): warning C4018: '<': signed/unsigned mismatch
+  Test.cpp
+d:\dani dsa\dsa\lab5\test.cpp(40): warning C4101: 'ex': unreferenced local variable
+d:\dani dsa\dsa\lab5\test.cpp(70): warning C4018: '<': signed/unsigned mismatch
+d:\dani dsa\dsa\lab5\test.cpp(76): warning C4101: 'e': unreferenced local variable
+d:\dani dsa\dsa\lab5\test.cpp(91): warning C4101: 'e': unreferenced local variable
+  Generating Code...
+  Lab5NHeap.vcxproj -> C:\Users\Alex\source\repos\Lab5NHeap\Debug\Lab5NHeap.exe
