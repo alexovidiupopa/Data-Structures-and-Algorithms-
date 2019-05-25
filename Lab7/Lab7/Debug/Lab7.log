@@ -1,0 +1,4 @@
+﻿  SortedMultiMap.cpp
+d:\facultate\semestrul 2\data-structures-and-algorithms\data-structures-and-algorithms-\lab7\lab7\sortedmultimap.h(22): warning C4091: 'typedef ': ignored on left of 'BSTNode' when no variable is declared
+d:\facultate\semestrul 2\data-structures-and-algorithms\data-structures-and-algorithms-\lab7\lab7\sortedmultimap.h(27): warning C4091: 'typedef ': ignored on left of 'BST' when no variable is declared
+  Lab7.vcxproj -> D:\Facultate\Semestrul 2\Data-Structures-and-Algorithms\Data-Structures-and-Algorithms-\Lab7\Debug\Lab7.exe
