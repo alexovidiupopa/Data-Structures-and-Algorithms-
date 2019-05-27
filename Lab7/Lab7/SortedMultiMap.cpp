@@ -28,7 +28,7 @@ void SortedMultiMap::recomputeFirstEmpty()
 	}
 }
 
-
+//O(height_of_subtree)<=>O(n)
 int SortedMultiMap::insert_rec(int node, TElem e)
 {
 	if (node == null)
@@ -87,6 +87,15 @@ int SortedMultiMap::remove_rec(int node, TElem e, bool &found)
 		this->bst.nodes[node].right = remove_rec(this->bst.nodes[node].right, e, found);
 		return node;
 	}
+}
+
+vector<TValue> SortedMultiMap::removeKey(TKey key)
+{
+	vector<TValue> valuesToBeRemoved = this->search(key);
+	for (auto v : valuesToBeRemoved) {
+		this->remove(key, v);
+	}
+	return valuesToBeRemoved;
 }
 
 //theta(cap)

@@ -47,7 +47,11 @@ private:
 
 	int remove_rec(int node, TElem e,bool &found);
 
+
 public:
+
+	vector<TValue> removeKey(TKey key);
+
 	SortedMultiMap(Relation r);
 
 	void add(TKey c, TValue v);
